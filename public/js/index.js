@@ -56,7 +56,7 @@ function addFile(target, file) {
     empty.classList.add("hidden");
     target.prepend(clone);
 
-    FILES[objectURL] = file;
+    FILES[objectURL]= {...file};
 }
 
 const gallery = document.getElementById("gallery"),
