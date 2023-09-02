@@ -2,10 +2,10 @@
   "name": "pdfmerger",
   "version": "1.0.0",
   "description": "Web application that took 2 pdf & then merge it..",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node index.js"
   },
   "keywords": [
     "nodejs",
